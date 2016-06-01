@@ -160,7 +160,8 @@ var spanishColor = function(colorName) {
 var foo = "bar";
 
 // Put your answer below -------------------------
-
+var foo;
+foo = "bar";
 
 // -----------------------------------------------
 
@@ -177,13 +178,18 @@ var foo = "bar";
 // function.
 
 var callTenTimes = function(callback) {
-  var range = _.range(10);
-  _.each(range, callback);
+  for(var i=1; i<=10; i++){
+    callback();
+  }
 };
 
 // Put your answer below -------------------------
-
-
+var callNtimes = function(callback, number) {
+  for(var i=1; i<= number; i++){
+    callback();
+  }
+};
+callNtimes(doSomethingCool, 6);
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
