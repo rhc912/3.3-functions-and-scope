@@ -83,6 +83,7 @@ letter = "z";
 console.log("The letter is", letter);
 
 // Put your answer below -------------------------
+// Answer is C. We set a timeout attached to the function. So we are telling java to set a delay and then keep going. Therefore it will log z first and after the timeout, it will log y.
 
 
 // -----------------------------------------------
