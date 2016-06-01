@@ -106,8 +106,11 @@ var reverseStr = function(str) {
 };
 
 // Put your answer below -------------------------
-
-
+function reverse(s) {
+  return s.split('').reverse().join('');
+}
+console.log(reverse('hello'));
+reverse('hello');
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
